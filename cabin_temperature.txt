@@ -1,0 +1,41 @@
+Data logging initiated - 5/3/2024
+Location - Nottingham
+
+Minute			0
+Temperature		15.09 C
+
+Minute			1
+Temperature		12.40 C
+
+Minute			2
+Temperature		11.03 C
+
+Minute			3
+Temperature		10.20 C
+
+Minute			4
+Temperature		9.76 C
+
+Minute			5
+Temperature		9.66 C
+
+Minute			6
+Temperature		9.42 C
+
+Minute			7
+Temperature		9.32 C
+
+Minute			8
+Temperature		9.32 C
+
+Minute			9
+Temperature		9.32 C
+
+Minute			10
+Temperature		9.27 C
+
+Max temp 		15.09 C
+Min temp 		9.22 C
+Average temp 	10.21 C
+
+Data logging terminated
