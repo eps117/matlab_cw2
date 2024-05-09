@@ -11,7 +11,7 @@ a = arduino();      % Establishing a connection with the arduino
 for i = 1:num_data_points                           % Reads the voltage over the duration
     voltage_recording(i) = readVoltage(a, "A0");    % Reads the voltage from the from the A0 channel
 
-    %pause(1)    % 1 second pause between each reading
+    pause(1)    % 1 second pause between each reading
 end
 
    
@@ -29,9 +29,6 @@ upper_threshold = 24;
 green_led = 'D12';
 yellow_led = 'D11';
 red_led = 'D10';
-
-% Initialize Arduino
-%a = arduino(); 
 
 % Turn off all LEDs initially
 writeDigitalPin(a, green_led, 0);
