@@ -15,5 +15,5 @@ while true
     temperature_calculated(i) = (voltage_recording(i) - V_0C) / TC;
     pause(1)
     
-    fprintf('\n%s\n', temperature_calculated)
+    fprintf('\n%s\n', temperature_calculated)    % Printing to the command screen
 end
